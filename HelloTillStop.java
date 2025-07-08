@@ -1,5 +1,9 @@
 import java.util.*;
-public class HelloTillStop {
+class HelloTillStop {
+    public static void main(String[] args) {
+        HelloTillStop obj = new HelloTillStop();
+        obj.showHello();
+    }
     Scanner sc = new Scanner(System.in);
          public void showHello() {
             String choice; //guard variable
